@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/main2.css">
+    <link rel="stylesheet" type="text/css" href="img.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+    
+        <header class="site-header">
+                <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+                <div class="container">
+                    <a class="navbar-brand mr-4" href="/">Order a hot Burger Today!</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link" href="index.html">Home</a><br/>
+                        <a class="nav-item nav-link" href="about.html">About</a>
+                    </div>
+                    <!-- Navbar Right Side -->
+                    <div class="navbar-nav">
+                        
+                       
+                        
+                        <a class="nav-item nav-link" href="index.html" onclick="funclogout()">Logout</a>
+                    </div>
+                    </div>
+                </div>
+                </nav>
+            </header>
+
+
+        <main role="main" class="container">
+                <div class="row">
+                        <div class="col-md-8">
+    <div class="content-section">
+        <form method="POST" action="customerview.html">
+           
+            <fieldset class="form-group">
+
+
+
+                    <legend class="border-bottom mb-4">Log In</legend>
+                    <div class="form-group">
+    <label>Category</label>
+                            <select class="form-control form-control-lg">
+                                    <option value="volvo">Chicken</option>
+                                    <option value="saab">Sabdwiches</option>
+                                    <option value="opel">Subs</option>
+                                    <option value="audi">Wraps</option>
+                                    <option value="audi">Salads</option>
+                                    <option value="audi">Taste of India</option>
+                                    <option value="audi">Taste of Kenya</option>
+                                    <option value="audi">Baverages</option>
+                                    <option value="audi">Snacks</option>
+                                    <option value="audi">Wraps</option>
+                                    <option value="audi">Burgers</option>
+                                  </select>                                                            
+                         </div>
+               
+                   
+                    <div class="form-group">
+                            <label class="form-control-label">Quantity</label> <input type="number" class="form-control form-control-lg"name="mail" />
+                                
+                    </div>
+
+                    <div class="form-group">
+                            <label class="form-control-label">Type of Food</label> <input type="text" class="form-control form-control-lg"name="mail" />
+                                
+                    </div>
+
+                    <div class="form-group">
+                            <label class="form-control-label">Price</label> <input type="text" class="form-control form-control-lg"name="mail" />
+                                
+                    </div>
+                   
+                    <!-- <div class="form-group">
+    
+                            <label for="appt-time">Choose time of delivery(open hours 8:00 to 12:00): </label>
+                            <input id="appt-time" type="time" name="appt-time"
+                                   min="12:00" max="18:00">
+                            <span class="validity"></span>     
+                        
+
+                        </div> -->
+
+            </fieldset>
+            <div class="form-group">
+                    <input type="submit" class="btn btn-outline-info"name="submitbtn" onclick="myfunction()" />
+               
+           </div>
+           
+
+        </form>
+
+    </div>
+    <div class="border-top pt-3">
+            <small class="text-muted">
+                Returning Customer? <a class="ml-2" href="login.html">Sign In</a>
+            </small>
+        </div>
+    </div>
+    <div class="col-md-4">
+            <div class="content-section">
+                <h3>Fast Food Fast Guide</h3>
+                <p class='text-muted'>Welcome to our fine restaurant website. Feel to order any meal of your choice and we'll deliver it to your doorstep. BON APPETIT!
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-light">Popular Meals</li>
+            <li class="list-group-item list-group-item-light">Announcements</li>
+            <li class="list-group-item list-group-item-light">Calendars</li>
+            <li class="list-group-item list-group-item-light">etc</li>
+          </ul>
+                </p>
+            </div>
+        </div>
+    
+
+                </div>
+        </main>
+
+        <script type="text/javaScript">
+
+     function myfunction(){1
+alert("Order was placed successfully");
+
+        }
+        function funclogout(){1
+alert("You have been logged out!");
+
+        }
+
+        </script>
+
+
+
+</body>
+</html>
